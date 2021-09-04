@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>JavaScript | Ejercicios</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <script src='main.js'></script>
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KyZXEAg3QhqLMpG8r+8fhAXLRk2vvoC2f3B09zVXn8CA5QIVfZOJ3BCsw2P0p/We" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-U1DAWAznBHeqEIlVSCgzq+c9gqGAJn5c/t99JyeKa9xxaYpSvHU5awsuZVVFIhvj" crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <div class="row">
+        <div class="col-6">
+            <div class="card">
+                <div class="card-body">
+                    <h4>Ejercicio No. 1</h4>
+                    <p>Crear una función que reciba como parámetro un arreglo de números y retornar en la consola los elementos elevados al cuadrado solo si se cumple que el número es positivo.
+                    </p>
+                    <br/>
+                    <div class="form-group">
+                        <label for="">Ingrese un arreglo</label>
+                        <input type="text" class="form-control" value="2,4,6" id="txtArreglo" onblur="arregloCuadrado(this.value);">
+                        <small id="labelArreglo" class="form-text text-muted"></small>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <br/>
+
+    <div class="row">
+        <div class="col-6">
+            <div class="card">
+                <div class="card-body">
+                    <h4>Ejercicio No. 2</h4>
+                    <p>Dado un arreglo de objetos como parámetro de una función, conteniendo la categoría y precio del producto, retornar el precio total de una categoría indicada.
+                    </p>
+                    <p>
+                        <li id="listaInventario">Inventario a usar:</li>
+                    </p>
+                    <br/>
+                    <div class="form-group">
+                        <label for="">Nombre Inventario</label>
+                        <input type="text" class="form-control" value="alimentos" id="txtCategoria" onblur="mostrarInventario(this.value);">
+                        <small id="labelInventario" class="form-text text-muted"></small>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <br/>
+
+    <div class="row">
+        <div class="col-6">
+            <div class="card">
+                <div class="card-body">
+                    <h4>Ejercicio No. 3</h4>
+                    <p>Implementa una función que reciba una oración y devuelva cada letra inicial de una palabra en mayúscula.
+                    </p>
+                    <br/>
+                    <div class="form-group">
+                        <label for="">Escriba un texto</label>
+                        <input type="text" class="form-control" value="alimentos" id="txtOracion" onblur="fraseTipoOracion(this.value);">
+                        <small id="labelOracion" class="form-text text-muted"></small>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <br/>
+
+    <div class="row">
+        <div class="col-6">
+            <div class="card">
+                <div class="card-body">
+                    <h4>Ejercicio No. 4</h4>
+                    <p> Dado un arreglo de números, "SumaElementos" devuelve el promedio de todos los elementos de la matriz dada.
+                    </p>
+                    <br/>
+                    <div class="form-group">
+                        <label for="">Escriba un arreglo de numeros</label>
+                        <input type="text" class="form-control" value="10,20,30,20,30,40,60" id="txtPromedio" onblur="promedioArreglo(this.value);">
+                        <small id="labelPromedio" class="form-text text-muted"></small>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="row">
+        <div class="col-6">
+            <div class="card">
+                <div class="card-body">
+                    <h4>Ejercicio No. 5</h4>
+                    <p> Dando un arreglo y un digito, encuentra y muestra en consola los 2 digitos que sumen el digito. Debes retornar los 2 dígitos que hagan la suma en un arreglo.
+                    </p>
+                    <br/>
+                    <div class="form-group">
+                        <label for="">Escriba un arreglo de numeros</label>
+                        <input type="text" class="form-control" value="3,34,4,12,5,2" id="txtPar" onblur="buscarPar(this.value);">
+                        <small id="labelPar" class="form-text text-muted"></small>
+                    </div>
+                    <div class="form-group">
+                        <label for="">Escriba el numero a sumar</label>
+                        <input type="text" class="form-control" value="9" id="txtParSuma">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <br/>
+
+    <div class="row">
+        <div class="col-6">
+            <div class="card">
+                <div class="card-body">
+                    <h4>Ejercicio No. 6</h4>
+                    <p> Operaciones con arrays
+                    </p>
+                    <br/>
+                    <div class="form-group">
+                        <label for="">Escriba un arreglo de numeros, ver proceso en la consola</label>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>
